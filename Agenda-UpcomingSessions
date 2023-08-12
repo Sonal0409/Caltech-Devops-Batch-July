@@ -1,0 +1,57 @@
+13-August-2023
+Agenda of the class:
+====================================
+Continue with discussion on terraform project
+  > create key pair in AWS
+  > add it to aws_instace resource
+  > create security groups using terraform resource
+  > associate it with aws_instance resource in terraform.
+  > execute sample terraform project.
+1. What is containerization, Introdcution to Docker tool.
+2. Docker architecture.
+3. Docker Images and pull docker image
+4. Docker run command and its options
+5. Docker lifecycle, how o start , stop and kill a container
+
+
+19-august-2023
+Agenda of the class:
+====================================
+1. Access the container using docker exec command
+2. Access a container via your browser. Port mapping
+4. Docker file creation
+5. Push dockerfile to Docker Hub
+
+
+
+20-August-2023
+Agenda of the class:
+==========================================
+1. Docker networking -> Create a custom Bridge network
+2. Docker compose tool and write docker compose file using YAML
+3. Introduction to Container orchestration and its features
+4. Introdcution to Kubernetes Container orchestration tool
+5. Kubernetes Architecture
+
+
+26-August-2023
+Agenda of the class:
+=============================================
+1. Installation of Kubernetes
+2. Creation of pod  using po-defination file using YAML
+3. Creation of multi-containaer POD in kubernetes
+
+27-auguest-2023
+Agenda:
+======================
+1. Introduction to Continous Monitoring
+2. Introdcution to Nagios monitoring tool
+3. Install nagios monitoring tool and monitor services using nagios
+4. Introduction to ELK tool
+5. Install ELK tool using docker-compose tool
+6. Create a dockercontainer to deploy an application and monitor using ELK tool.
+7. Discuss and mentor on Devops CICD project 2
+
+================================================
+
+Course Complete
