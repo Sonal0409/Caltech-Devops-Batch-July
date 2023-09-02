@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: mypod
+ labels:
+  author: sonal
+  app: java
+spec:
+ containers:
+ - name: c1
+   image: nginx
