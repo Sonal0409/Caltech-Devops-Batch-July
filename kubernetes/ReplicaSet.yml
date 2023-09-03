@@ -1,0 +1,18 @@
+apiversion: apps/v1
+kind: ReplicaSet
+metadata:
+ name: myrs
+spec:
+ replicas: 4  # here replicas = pods that will be created in kubernetes
+ selector:
+  matchLabels:
+   type: webserver
+ template: # here tmeplate is the pod template which will be used to create replicas
+  metadata: # metadata about the replicas
+   labels:
+    type: webserver
+    author: sonal
+  spec: # here we are specifying the contaienr details on the replica
+   containers:
+    - name: c1
+      image: nginx
